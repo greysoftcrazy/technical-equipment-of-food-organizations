@@ -1,0 +1,138 @@
+
+p {
+    text-align: justify;
+}
+
+.book-header .fa-facebook, .book-header .fa-twitter, .book-header .fa-font, .book-header .toggle-dropdown, .book-header h1 {
+    display: none;
+}
+
+
+.book-summary {
+    background-color: #fcfcf9;
+    border-right-color: #f4f4f1;
+    overflow-y: none;
+    padding-bottom: 30px;
+}
+
+.book-summary::-webkit-scrollbar {
+    display: none;
+}
+
+#book-search-input {
+    border-bottom-color: #f4f4f1;
+    padding: 12px 8px;
+    margin-bottom: 20px;
+}
+
+#book-search-input input {
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 40px !important;
+    background: url(../images/search.png) no-repeat 0 2px !important;
+    background-size: 34px 34px !important;
+}
+
+.book-summary ul.summary li span{
+	white-space: normal;
+}
+
+.book-summary ul.summary li a{
+	white-space: normal;
+}
+
+.book-logo img {
+    display: block;
+    text-indent: -9999px;
+    background-size: 500px 200px;
+    margin: 0px opx;
+    max-height: 200px;
+    max-width: 300px;
+        
+}
+
+.markdown-section a, #book-search-results .search-results .has-results .search-results-item a {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: #5499C3;
+}
+
+.markdown-section a:after, #book-search-results .search-results .has-results .search-results-item a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid #5499C3;
+    transition: 0.5s ease;
+}
+
+.markdown-section a:hover:after,
+#book-search-results .search-results .has-results .search-results-item a:hover:after {
+  width: 100%;
+}
+
+.markdown-section ul li {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 0 0 30px;
+    margin: 0;
+    text-align: justify;
+}
+
+.markdown-section ul {
+    list-style: none;
+    padding: 0 0 15px 0;
+}
+
+.markdown-section ul li:before {
+    content: "";
+    display: block;
+    position: relative;
+    left: -25px;
+    top: 16px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-45deg);
+    background-color: #ffd16d;
+}
+
+
+.book-summary {
+    background-color: #fcfcf9;
+    border-right-color: #f4f4f1;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+}
+
+.book-summary ul.summary li a {
+    text-decoration: none !important;
+    padding: 8px 16px;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+
+.book-summary ul.articles li a {
+    font-weight: normal;
+}
+
+.book-summary ul.summary li.active>a {
+    border-left: 4px solid #ffd16d;
+    padding-left: 10px;
+
+}
+
+.book-summary ul.summary li ul {
+    padding-left: 20px;
+}
+
+.book-summary {
+    width:320px;
+}
+
+.gitbook-link {
+    display: none !important;
+}
+
