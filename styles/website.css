@@ -136,3 +136,14 @@ p {
     display: none !important;
 }
 
+img[alt="p8w"] { 
+    max-width:  200px; 
+    display: block;
+}
+
+
+img[alt="p9w"] { 
+    max-width:  500px; 
+    width:  500px; 
+    display: block;
+}
